@@ -1,0 +1,468 @@
+GIT
+  remote: https://github.com/ekho/capistrano-git-submodule-strategy.git
+  revision: f54d1f03bb96263312ae6789a2f0d6c44e579f6d
+  specs:
+    capistrano-git-submodule-strategy (0.1.22)
+      capistrano (~> 3.1)
+
+GIT
+  remote: https://github.com/seuros/capistrano-sidekiq.git
+  revision: 416d1ba6ac29e550b506468c45053b9fe65347b3
+  specs:
+    capistrano-sidekiq (0.5.4)
+      capistrano
+      sidekiq (>= 3.4)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    actionmailer (3.2.22)
+      actionpack (= 3.2.22)
+      mail (~> 2.5.4)
+    actionpack (3.2.22)
+      activemodel (= 3.2.22)
+      activesupport (= 3.2.22)
+      builder (~> 3.0.0)
+      erubis (~> 2.7.0)
+      journey (~> 1.0.4)
+      rack (~> 1.4.5)
+      rack-cache (~> 1.2)
+      rack-test (~> 0.6.1)
+      sprockets (~> 2.2.1)
+    activemodel (3.2.22)
+      activesupport (= 3.2.22)
+      builder (~> 3.0.0)
+    activerecord (3.2.22)
+      activemodel (= 3.2.22)
+      activesupport (= 3.2.22)
+      arel (~> 3.0.2)
+      tzinfo (~> 0.3.29)
+    activeresource (3.2.22)
+      activemodel (= 3.2.22)
+      activesupport (= 3.2.22)
+    activesupport (3.2.22)
+      i18n (~> 0.6, >= 0.6.4)
+      multi_json (~> 1.0)
+    acts-as-taggable-on (2.2.2)
+      rails (~> 3.0)
+    acts_as_xlsx (1.0.6)
+      activerecord (>= 2.3.9)
+      axlsx (>= 1.0.13)
+      i18n (>= 0.4.1)
+    ajax-datatables-rails (0.3.1)
+      railties (>= 3.1)
+    arel (3.0.3)
+    axiom-types (0.1.1)
+      descendants_tracker (~> 0.0.4)
+      ice_nine (~> 0.11.0)
+      thread_safe (~> 0.3, >= 0.3.1)
+    axlsx (2.0.1)
+      htmlentities (~> 4.3.1)
+      nokogiri (>= 1.4.1)
+      rubyzip (~> 1.0.0)
+    bartt-ssl_requirement (1.4.2)
+    builder (3.0.4)
+    callsite (0.0.11)
+    canonical-rails (0.0.10)
+      rails (>= 3.1, < 5.0)
+    capistrano (3.4.1)
+      i18n
+      rake (>= 10.0.0)
+      sshkit (~> 1.3)
+    capistrano-bundler (1.1.4)
+      capistrano (~> 3.1)
+      sshkit (~> 1.2)
+    capistrano-rails (1.1.7)
+      capistrano (~> 3.1)
+      capistrano-bundler (~> 1.1)
+    carrierwave (0.10.0)
+      activemodel (>= 3.2.0)
+      activesupport (>= 3.2.0)
+      json (>= 1.7)
+      mime-types (>= 1.16)
+    carrierwave-imageoptimizer (1.2.1)
+      carrierwave (~> 0.8)
+      image_optimizer (~> 1.2)
+    choice (0.2.0)
+    choices (0.4.0)
+      hashie (>= 0.4.0)
+    chunky_png (1.3.4)
+    ckeditor (4.1.3)
+      cocaine
+      orm_adapter (~> 0.5.0)
+    climate_control (0.0.3)
+      activesupport (>= 3.0)
+    cocaine (0.5.7)
+      climate_control (>= 0.0.3, < 1.0)
+    coderay (1.1.0)
+    coercible (1.0.0)
+      descendants_tracker (~> 0.0.1)
+    coffee-rails (3.2.2)
+      coffee-script (>= 2.2.0)
+      railties (~> 3.2.0)
+    coffee-script (2.4.1)
+      coffee-script-source
+      execjs
+    coffee-script-source (1.9.1.1)
+    colorbox-rails (0.1.2)
+      jquery-rails
+      rails (>= 3.1.1)
+    concurrent-ruby (1.0.2)
+    connection_pool (2.2.0)
+    csv-mapper (0.5.1)
+      fastercsv
+    daemons (1.2.3)
+    dalli (2.7.4)
+    delayed_job (4.0.6)
+      activesupport (>= 3.0, < 5.0)
+    delayed_job_active_record (4.0.3)
+      activerecord (>= 3.0, < 5.0)
+      delayed_job (>= 3.0, < 4.1)
+    descendants_tracker (0.0.4)
+      thread_safe (~> 0.3, >= 0.3.1)
+    diff-lcs (1.2.5)
+    docile (1.1.5)
+    domain_name (0.5.24)
+      unf (>= 0.0.5, < 1.0.0)
+    elasticsearch (1.0.12)
+      elasticsearch-api (= 1.0.12)
+      elasticsearch-transport (= 1.0.12)
+    elasticsearch-api (1.0.12)
+      multi_json
+    elasticsearch-model (0.1.5)
+      activesupport (> 3)
+      elasticsearch (> 0.4)
+      hashie
+    elasticsearch-persistence (0.1.7)
+      activemodel (> 3)
+      activesupport (> 3)
+      elasticsearch (> 0.4)
+      elasticsearch-model (>= 0.1)
+      hashie
+      virtus
+    elasticsearch-rails (0.1.5)
+    elasticsearch-transport (1.0.12)
+      faraday
+      multi_json
+    equalizer (0.0.11)
+    erubis (2.7.0)
+    escape_utils (1.1.0)
+    execjs (2.6.0)
+    factory_girl (4.5.0)
+      activesupport (>= 3.0.0)
+    factory_girl_rails (4.5.0)
+      factory_girl (~> 4.5.0)
+      railties (>= 3.0.0)
+    faker (1.6.1)
+      i18n (~> 0.5)
+    faraday (0.9.1)
+      multipart-post (>= 1.2, < 3)
+    fast_stack (0.1.0)
+      rake
+      rake-compiler
+    fastercsv (1.5.5)
+    ffi (1.9.10)
+    file-temp (1.2.1)
+      ffi (>= 1.0.0)
+    flamegraph (0.1.0)
+      fast_stack
+    friendly_id (4.0.10.1)
+      activerecord (>= 3.0, < 4.0)
+    galetahub-simple_captcha (0.1.5)
+    geocoder (1.2.9)
+    git-version-bump (0.15.1)
+    hashie (3.4.2)
+    hike (1.2.3)
+    hpricot (0.8.6)
+    htmlentities (4.3.4)
+    http-cookie (1.0.2)
+      domain_name (~> 0.5)
+    i18n (0.7.0)
+    ice_nine (0.11.1)
+    image_optimizer (1.3.0)
+    imgareaselect-rails (1.0.2)
+      rails (>= 3.1)
+    journey (1.0.4)
+    jquery-datatables-rails (2.2.3)
+      jquery-rails
+      sass-rails
+    jquery-mjs-nestedSortable-rails (1.3.5)
+    jquery-rails (2.3.0)
+      railties (>= 3.0, < 5.0)
+      thor (>= 0.14, < 2.0)
+    jquery-ui-rails (5.0.5)
+      railties (>= 3.2.16)
+    json (1.8.3)
+    kgio (2.10.0)
+    libv8 (3.16.14.11)
+    lograge (0.3.4)
+      actionpack (>= 3)
+      activesupport (>= 3)
+      railties (>= 3)
+    mail (2.5.4)
+      mime-types (~> 1.16)
+      treetop (~> 1.4.8)
+    meta_request (0.3.4)
+      callsite (~> 0.0, >= 0.0.11)
+      rack-contrib (~> 1.1)
+      railties (>= 3.0.0, < 5.0.0)
+    metaclass (0.0.4)
+    method_source (0.8.2)
+    mime-types (1.25.1)
+    mini_magick (4.2.10)
+    mini_portile (0.6.2)
+    mocha (1.1.0)
+      metaclass (~> 0.0.1)
+    multi_json (1.11.2)
+    multipart-post (2.0.0)
+    mysql2 (0.3.20)
+    net-scp (1.2.1)
+      net-ssh (>= 2.6.5)
+    net-ssh (3.2.0)
+    netrc (0.10.3)
+    newrelic_rpm (3.14.3.313)
+    nifty-generators (0.4.6)
+    nokogiri (1.6.6.2)
+      mini_portile (~> 0.6.0)
+    orm_adapter (0.5.0)
+    polyglot (0.3.5)
+    power_assert (0.2.4)
+    pry (0.10.3)
+      coderay (~> 1.1.0)
+      method_source (~> 0.8.1)
+      slop (~> 3.4)
+    pry-nav (0.2.4)
+      pry (>= 0.9.10, < 0.11.0)
+    pry-rails (0.3.4)
+      pry (>= 0.9.10)
+    quiet_assets (1.1.0)
+      railties (>= 3.1, < 5.0)
+    rack (1.4.7)
+    rack-cache (1.2)
+      rack (>= 0.4)
+    rack-contrib (1.4.0)
+      git-version-bump (~> 0.15)
+      rack (~> 1.4)
+    rack-mini-profiler (0.9.7)
+      rack (>= 1.1.3)
+    rack-rewrite (1.0.2)
+    rack-ssl (1.3.4)
+      rack
+    rack-test (0.6.3)
+      rack (>= 1.0)
+    rails (3.2.22)
+      actionmailer (= 3.2.22)
+      actionpack (= 3.2.22)
+      activerecord (= 3.2.22)
+      activeresource (= 3.2.22)
+      activesupport (= 3.2.22)
+      bundler (~> 1.0)
+      railties (= 3.2.22)
+    rails-erd (1.4.2)
+      activerecord (>= 3.2)
+      activesupport (>= 3.2)
+      choice (~> 0.2.0)
+      ruby-graphviz (~> 1.2)
+    rails3-jquery-autocomplete (1.0.15)
+      rails (>= 3.2)
+    rails_fix_google_bot_accept (0.1.0)
+    railties (3.2.22)
+      actionpack (= 3.2.22)
+      activesupport (= 3.2.22)
+      rack-ssl (~> 1.3.2)
+      rake (>= 0.8.7)
+      rdoc (~> 3.4)
+      thor (>= 0.14.6, < 2.0)
+    raindrops (0.15.0)
+    rake (10.4.2)
+    rake-compiler (0.9.5)
+      rake
+    rdoc (3.12.2)
+      json (~> 1.4)
+    redis (3.3.0)
+    ref (2.0.0)
+    rest-client (1.8.0)
+      http-cookie (>= 1.0.2, < 2.0)
+      mime-types (>= 1.16, < 3.0)
+      netrc (~> 0.7)
+    rmagick (2.15.4)
+    rollbar (2.11.3)
+      multi_json
+    rspec-core (3.4.1)
+      rspec-support (~> 3.4.0)
+    rspec-expectations (3.4.0)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.4.0)
+    rspec-mocks (3.4.1)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.4.0)
+    rspec-rails (3.4.0)
+      actionpack (>= 3.0, < 4.3)
+      activesupport (>= 3.0, < 4.3)
+      railties (>= 3.0, < 4.3)
+      rspec-core (~> 3.4.0)
+      rspec-expectations (~> 3.4.0)
+      rspec-mocks (~> 3.4.0)
+      rspec-support (~> 3.4.0)
+    rspec-support (3.4.1)
+    ruby-graphviz (1.2.2)
+    rubyzip (1.0.0)
+    rvm1-capistrano3 (1.4.0)
+      capistrano (~> 3.0)
+      sshkit (>= 1.2)
+    sass (3.4.18)
+    sass-rails (3.2.5)
+      railties (~> 3.2.0)
+      sass (>= 3.1.10)
+      tilt (~> 1.3)
+    sidekiq (4.1.2)
+      concurrent-ruby (~> 1.0)
+      connection_pool (~> 2.2, >= 2.2.0)
+      redis (~> 3.2, >= 3.2.1)
+    simplecov (0.10.0)
+      docile (~> 1.1.0)
+      json (~> 1.8)
+      simplecov-html (~> 0.10.0)
+    simplecov-html (0.10.0)
+    sitemap_generator (5.1.0)
+      builder
+    slackistrano (2.0.1)
+      capistrano (>= 3.0.1)
+      json
+    slop (3.6.0)
+    sprite-factory (1.7)
+    sprockets (2.2.3)
+      hike (~> 1.2)
+      multi_json (~> 1.0)
+      rack (~> 1.0)
+      tilt (~> 1.1, != 1.3.0)
+    sshkit (1.11.1)
+      net-scp (>= 1.1.2)
+      net-ssh (>= 2.8.0)
+    string_case_pl (0.1.2)
+    syslogger (1.6.3)
+    test-unit (3.1.3)
+      power_assert
+    therubyracer (0.12.2)
+      libv8 (~> 3.16.14.0)
+      ref
+    thor (0.19.1)
+    thread_safe (0.3.5)
+    tilt (1.4.1)
+    treetop (1.4.15)
+      polyglot
+      polyglot (>= 0.3.1)
+    tzinfo (0.3.44)
+    uglifier (2.7.2)
+      execjs (>= 0.3.0)
+      json (>= 1.8.0)
+    unf (0.1.4)
+      unf_ext
+    unf_ext (0.0.7.1)
+    unicorn (5.0.1)
+      kgio (~> 2.6)
+      rack
+      raindrops (~> 0.7)
+    unscoped_associations (0.6.5)
+      activerecord
+    virtus (1.0.5)
+      axiom-types (~> 0.1)
+      coercible (~> 1.0)
+      descendants_tracker (~> 0.0, >= 0.0.3)
+      equalizer (~> 0.0, >= 0.0.9)
+    webrick (1.3.1)
+    will_paginate (3.0.7)
+    yard (0.8.7.6)
+    yui-compressor (0.12.0)
+    zip-zip (0.3)
+      rubyzip (>= 1.0.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  acts-as-taggable-on (~> 2.2.2)
+  acts_as_xlsx
+  ajax-datatables-rails
+  bartt-ssl_requirement (~> 1.4.0)
+  canonical-rails
+  capistrano (~> 3.4.0)
+  capistrano-bundler
+  capistrano-git-submodule-strategy (~> 0.1)!
+  capistrano-rails
+  capistrano-sidekiq!
+  carrierwave
+  carrierwave-imageoptimizer
+  choices
+  chunky_png
+  ckeditor
+  coffee-rails (~> 3.2.2)
+  colorbox-rails
+  csv-mapper
+  daemons
+  dalli
+  delayed_job_active_record
+  elasticsearch-model (= 0.1.5)
+  elasticsearch-persistence
+  elasticsearch-rails (= 0.1.5)
+  escape_utils
+  execjs
+  factory_girl_rails
+  faker (~> 1.6, >= 1.6.1)
+  file-temp
+  flamegraph
+  friendly_id
+  galetahub-simple_captcha
+  geocoder
+  hashie (>= 3.3.1)
+  hpricot
+  imgareaselect-rails (~> 1.0)
+  jquery-datatables-rails (~> 2.2.3)
+  jquery-mjs-nestedSortable-rails
+  jquery-rails (~> 2.3.0)
+  jquery-ui-rails
+  libv8
+  lograge
+  meta_request
+  mime-types
+  mini_magick
+  mocha
+  mysql2
+  newrelic_rpm
+  nifty-generators
+  nokogiri
+  pry-nav
+  pry-rails
+  quiet_assets
+  rack-mini-profiler
+  rack-rewrite (~> 1.0.0)
+  rails (= 3.2.22)
+  rails-erd
+  rails3-jquery-autocomplete
+  rails_fix_google_bot_accept
+  rest-client
+  rmagick
+  rollbar
+  rspec-rails
+  rubyzip (>= 1.0.0)
+  rvm1-capistrano3
+  sass-rails (= 3.2.5)
+  simplecov
+  sitemap_generator
+  slackistrano
+  sprite-factory
+  string_case_pl (~> 0.1.2)
+  syslogger
+  test-unit
+  therubyracer
+  uglifier
+  unicorn
+  unscoped_associations
+  webrick (= 1.3.1)
+  will_paginate (~> 3.0)
+  yard
+  yui-compressor
+  zip-zip
+
+BUNDLED WITH
+   1.12.5
